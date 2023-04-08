@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="ui\ui.cc" />
+    <ClCompile Include="streaming\blowfish.cpp" />
+    <ClCompile Include="inject\driver\driver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="ui\ui.hh" />
+    <ClInclude Include="globals.hh" />
+    <ClInclude Include="ui\font.h" />
+    <ClInclude Include="auth\auth.hpp" />
+    <ClInclude Include="streaming\blowfish.h" />
+    <ClInclude Include="streaming\stream.h" />
+    <ClInclude Include="auth\sk.h" />
+    <ClInclude Include="inject\define\stdafx.h" />
+    <ClInclude Include="inject\driver\defines.h" />
+    <ClInclude Include="inject\driver\driver.h" />
+    <ClInclude Include="inject\inject\inj_utils.h" />
+    <ClInclude Include="inject\inject\injector.h" />
+    <ClInclude Include="inject\injectorapi\api.h" />
+    <ClInclude Include="inject\injectorapi\drvutils.h" />
+    <ClInclude Include="inject\injectorapi\shellcode.h" />
+    <ClInclude Include="inject\injectorapi\utilit.h" />
+    <ClInclude Include="inject\injectorapi\xor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8cf77124-bebc-471d-acac-8b9b1ffc2a66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth\library_x64.lib" />
+    <Library Include="auth\libcurl.lib" />
+  </ItemGroup>
+</Project>
